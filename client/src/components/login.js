@@ -12,7 +12,7 @@ import VisibilityIcon from '@material-ui/icons/Visibility';
 const Login = () => {
 
     const paperStyle = { padding: 20, height: '70vh', width: '80%', margin: "20px auto" }
-    const btnstyle = { margin: '8px 0' }
+    const btnstyle = { margin: '8px 0',  background: 'rgb(240, 185, 68)' }
     const styles = {
         paperContainer: {backgroundImage: `url(${Coluna1})`, 
         backgroundPosition:'center',  
@@ -21,6 +21,8 @@ const Login = () => {
         backgroundRepeat: 'no-repeat',
 
         }
+        
+
     };
     return (
         <div>
