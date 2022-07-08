@@ -1,13 +1,13 @@
 import {React} from 'react'
 
 // import coluna1 from './components/img/coluna1.jpg'
-
+import Api from '../services/api'
 
 const Showuser=()=>{
 
     
     return(
-        <div>dados de usuario login</div>
+        <div id="renderResults"><Api /> authentication failure response </div>
     )
 }
 

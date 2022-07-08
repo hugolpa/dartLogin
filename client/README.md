@@ -1,3 +1,28 @@
+# O problema
+Desenvolver uma aplicação contendo uma tela de login e uma tela posterior que exibe as informações do usuário
+logado.
+Requisitos
+• A tela de “Login” deve ser desenvolvida idêntica a imagem do layout disponível abaixo (imagem 1)
+• A tela para exibição das informações do usuário logado fica a seu critério
+• A aplicação deve ser desenvolvida em React com Typescript
+• Deve ser utilizado o framework de frontend Material-UI para a criação dos componentes das telas
+• Deve ser utilizado o recurso Context API do React para armazenar as informações do usuário durante o login
+e exibi-las na tela posterior
+• Utilizar a biblioteca React-Router-Dom para navegação entre as páginas
+• Para consumo da api de login fica a seu critério a melhor forma, entretanto é preferível a utilização da
+biblioteca Axios no desenvolvimento
+# Extras (não obrigatórios)
+• Responsividade (disponível abaixo imagem 2)
+• Utilização de formulário reativo com validação dos campos Usuário e Senha
+• Utilização do recurso Snackbar para exibir uma mensagem de “Usuário Inválido” caso o usuário ou senha
+digitado esteja errado
+• Tela de loading entre a chamada da api e a exibição dos dados do usuário
+# API
+• Método: POST
+• Endpoint: https://dummyjson.com/auth/login
+• Credenciais:
+o "username": "kminchelle",
+o "password": "0lelplR
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

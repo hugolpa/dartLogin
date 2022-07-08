@@ -12,18 +12,20 @@ import VisibilityIcon from '@material-ui/icons/Visibility';
 const Login = () => {
 
     const paperStyle = { padding: 20, height: '70vh', width: '80%', margin: "20px auto" }
-    const btnstyle = { margin: '8px 0',  background: '#f58227' }
+    const btnstyle = { margin: '8px 0', background: '#f58227' }
     const styles = {
-        paperContainer: {backgroundImage: `url(${Coluna1})`, 
-        backgroundPosition:'center',  
-        padding: 20, margin: "20px auto", 
-        backgroundSize: '100% 100%', 
-        backgroundRepeat: 'no-repeat',
+        paperContainer: {
+            backgroundImage: `url(${Coluna1})`,
+            backgroundPosition: 'center',
+            padding: 20, margin: "20px auto",
+            backgroundSize: '100% 100%',
+            backgroundRepeat: 'no-repeat',
 
         }
-        
+    }; 
+    
 
-    };
+   
     return (
         <div>
 
@@ -39,10 +41,10 @@ const Login = () => {
                                 <img alt="logo" src={Logo} />
                             </Grid>
 
-                            <TextField label='Usuário' placeholder='Entre com usuário' fullWidth required />
-                            <TextField label='Senha' placeholder='Entre com senha' type='password' startIcon={<VisibilityIcon />} fullWidth required />
+                            <TextField label='Usuário'  placeholder='Entre com usuário' fullWidth required />
+                            <TextField label='Senha'  placeholder='Entre com senha' type='password' startIcon={<VisibilityIcon />} fullWidth required />
 
-                            <Button type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Continuar</Button>
+                            <Button type='submit' color='primary' variant="contained"  style={btnstyle} fullWidth>Continuar</Button>
 
                         </Paper>
                     </Grid>
