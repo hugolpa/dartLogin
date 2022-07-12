@@ -22,10 +22,10 @@ const Login = () => {
             backgroundRepeat: 'no-repeat',
 
         }
-    }; 
-    
+    };
 
    
+
     return (
         <div>
 
@@ -41,12 +41,13 @@ const Login = () => {
                                 <img alt="logo" src={Logo} />
                             </Grid>
 
-                            <TextField label='Usuário'  placeholder='Entre com usuário' fullWidth required />
-                            <TextField label='Senha'  placeholder='Entre com senha' type='password' startIcon={<VisibilityIcon />} fullWidth required />
+                            <TextField label='Usuário' placeholder='Entre com usuário' fullWidth required />
+                            <TextField label='Senha' placeholder='Entre com senha' type='password' startIcon={<VisibilityIcon />} fullWidth required />
 
-                            <Button type='submit' color='primary' variant="contained"  style={btnstyle} fullWidth>Continuar</Button>
+                            <Button type='submit' color='primary' variant="contained" style={btnstyle} fullWidth>Continuar</Button>
 
                         </Paper>
+                        
                     </Grid>
                 </Grid>
             </Box>
